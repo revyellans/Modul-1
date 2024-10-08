@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #f3e5f5, #fff);
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 50px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.search-bar {
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #8e44ad;
+}
+
+/* Main Section */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 3em;
+    color: #8e44ad;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8e44ad;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.appointment-btn:hover {
+    background-color: #6c3483;
+}
+
+.image-container {
+    max-width: 40%;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px 50px;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-logo img {
+    width: 60px;
+}
+
+.contact-info, .address {
+    max-width: 30%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer strong {
+    font-size: 1.2em;
+}
